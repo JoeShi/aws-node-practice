@@ -1,0 +1,14 @@
+{
+  "name": "aws-node-demo",
+  "description": "General API practice of AWS service on nodejs",
+  "keywords": ["aws", "nodejs", "api", "demo"],
+  "scripts": {
+    "test": ""
+  },
+  "homepage": "https://",
+  "version": "0.0.1",
+  "author": "Joe SHI <qiaoshi@amazon.com>",
+  "dependencies": {
+  },
+  "license": "MIT"
+}
