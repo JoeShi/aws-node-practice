@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "extends": "google",
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "semi": ["error", "never"]
+  }
+}
