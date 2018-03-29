@@ -41,12 +41,12 @@ describe('Test of Glacier operations', function() {
     })
   })
 
-  it.only('#getJobOutput', function(done) {
+  it('#getJobOutput', function(done) {
     const params = {
       jobId: '0bdGPCrZJzdfwr_pXyP3nFX8s4_bAr-DZP4oyb3EF_NpGLWQHtRXTvly_fv0O8GxNsmcwqdEI-YvIkuL0uMZBN4HvAES',
       vaultName: vaultName
     }
-    glacier.getJobOutput(params).promise().then((data) => {
+    glacier.getJobOutput(params).promise().then(() => {
       done()
     }).catch((err) => {
       done(err)
