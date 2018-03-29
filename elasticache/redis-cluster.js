@@ -2,12 +2,13 @@
 
 const Redis = require('ioredis')
 
-const cluster = new Redis.Cluster([
-  {
+const cluster = new Redis.Cluster(
+  [{
     port: 6379,
     host: 'redis-2.saqbbs.clustercfg.apse1.cache.amazonaws.com'
-  }
-])
+  }], {
+    scaleReads: 'slave'
+  })
 
 const aArray = []
 

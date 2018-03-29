@@ -17,7 +17,10 @@
   "author": "Joe SHI <qiaoshi@amazon.com>",
   "dependencies": {
     "aws-sdk": "^2.213.1",
+    "install": "^0.11.0",
     "ioredis": "^3.2.2",
+    "memcached": "^2.2.2",
+    "npm": "^5.8.0",
     "uuid": "^3.2.1"
   },
   "license": "MIT",
