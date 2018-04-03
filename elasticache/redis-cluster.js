@@ -19,6 +19,8 @@ for (let index = 1; index < 10000; index++) {
   })
 }
 
+cluster.set('key', 100, 'EX', 10) // set key with expire time
+
 aArray.forEach(item => {
   cluster.set(item.key, item.value)
 })
